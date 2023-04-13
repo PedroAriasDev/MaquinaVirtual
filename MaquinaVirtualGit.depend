@@ -1,0 +1,20 @@
+# depslib dependency file v1.0
+1680893497 source:c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\mvfunciones.c
+	<stdio.h>
+	<stdlib.h>
+
+1681136013 source:c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\registros.c
+	"registros.h"
+
+1680985401 c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\registros.h
+	"mVTipos.h"
+
+1681393534 c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\mvtipos.h
+
+1681393534 source:c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\funcionesadicionales.c
+	<stdlib.h>
+	"funcionesAdicionales.h"
+	"mVTipos.h"
+
+1680980526 c:\users\facundo\dropbox\maquinavirtual\maquinavirtualgit\funcionesadicionales.h
+

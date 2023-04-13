@@ -1,11 +1,14 @@
 #ifndef MVFUNCIONESTIPOSPROTOS_H_INCLUDED
 #define MVFUNCIONESTIPOSPROTOS_H_INCLUDED
+#include "mVTipos.h"
 
-typedef void t_funcion(int *a,int *b);
+typedef void t_funcion(TMV *,operando *);
 
 
 
-void mov(int *celdaRecividora,int *valor);
+void mov(TMV *mv,operando *op){
+    setOP(mv,op[0],getOp(mv,op[1]));
+}
 void add(int *operando1,int operando2);
 void sub(int *operando1,int *operando2);
 void intercambia(int *operando1,int *operando2);
@@ -25,6 +28,6 @@ void jnp(int direccion,int *ip);
 void jnn(int direccion,int *ip);
 void ldl()
 
-t_funcion vecFuncionesMV[]={mov,add,sub,intercambia,cmp};
+
 #endif // MVFUNCIONESTIPOSPROTOS_H_INCLUDED
 

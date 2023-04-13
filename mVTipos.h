@@ -1,11 +1,9 @@
-#ifndef MVTIPOS_H_INCLUDED
-#define MVTIPOS_H_INCLUDED
+
 
 typedef char instruccion;
-
 typedef struct{
-    instruccion memoria[];
+    instruccion memoria[16384];
     int TDD[8];
-    unsigned int registros[16];}mv;
+    unsigned int registros[16]; // 16 registros de 4 bytes
+}TMV;
 
-#endif // MVTIPOS_H_INCLUDED
